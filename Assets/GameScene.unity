@@ -345,7 +345,6 @@ GameObject:
   - component: {fileID: 135487806}
   - component: {fileID: 135487805}
   - component: {fileID: 135487804}
-  - component: {fileID: 135487808}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -431,17 +430,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &135487808
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 135487803}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c8bbaa313be3ac94bb529b1383caadd7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &432207160
 Prefab:
   m_ObjectHideFlags: 0
@@ -1157,6 +1145,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1044085205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1044085200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b5e577c496abcf40afd550612df3e34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1090020191 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1123521367843272, guid: f645897a799a495459a3209fd74fae89,
@@ -1597,6 +1596,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1362329557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1362329552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b5e577c496abcf40afd550612df3e34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1509492604 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1123521367843272, guid: f645897a799a495459a3209fd74fae89,
